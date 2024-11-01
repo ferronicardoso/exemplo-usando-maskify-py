@@ -10,7 +10,7 @@ cnpj = "12.345.678/0001-99"
 masked_cnpj = Masker.mask_cnpj(cnpj, "*")
 print("Masked CNPJ:", masked_cnpj)  
 
-# Output: "12.XXX.XXX/XX01-99"
+# Output: "12.***.***/**01-99"
 
 email = "usuario@exemplo.com"
 masked_email = Masker.mask_email(email, "*")
